@@ -4,57 +4,56 @@
     <head>
         <title>Landing Page</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <div class="header">
-            <div>
-                <div class="logo">Header Logo</div>
+            <div class="header-primary">
+                <div class="logo">Header Logo</div>   
                 <ul class="list">
                     <li>header link one</li>
                     <li>header link two</li>
                     <li>header link three</li>
                 </ul>
             </div>
-            <div>
+            <div class="header-secondary">
                 <div>
                     <div class="main-text">
                         This website is awesome
                     </div>
-                    <div>
+                    <div class="secondary-text">
                         This website has some subtext that goes here under the main title. 
                         It's a smaller font and the color is lower contrast
                     </div>
-                    <button>Sign Up</button>
+                    <button class="first-button">Sign Up</button>
                 </div>
-                <div>
-                    <img src="city1.jpg">
-                </div>
+                <img src="city1.jpg" class="main-image">
             </div>
         </div>
 
-        <div>
-            <div>Some Random Information</div>
-            <div>
-                <div><img src="city2.jpg">this is some subtext under an illustration or image</div>
-                <div><img src="city3.jpg">this is some subtext under an illustration or image</div>
-                <div><img src="city4.jpg">this is some subtext under an illustration or image</div>
-                <div><img src="city5.jpg">this is some subtext under an illustration or image</div>
+        <div class="second-part">
+            <div class="second-part-header">Some random information.</div>
+            <div class="image-list">
+                <div class="text-and-image-group"><img src="city2.jpg" class="images">this is some subtext under an illustration or image</div>
+                <div class="text-and-image-group"><img src="city3.jpg" class="images">this is some subtext under an illustration or image</div>
+                <div class="text-and-image-group"><img src="city4.jpg" class="images">this is some subtext under an illustration or image</div>
+                <div class="text-and-image-group"><img src="city5.jpg" class="images">this is some subtext under an illustration or image</div>
             </div>
         </div>
 
-        <div>
-            <div>
+        <div class="third-part">
+            <div class="quote">
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
             people will actually read it. Who knows? All I know is that it looks nice.
-            </div>
-            <div>
-                -Thor, God of Thunder
-            </div>
+                <div class="quote-writer">
+                    -Thor, God of Thunder
+                </div>
+            </div>      
         </div>
 
-        <div>
-            <div>
+        <div class="fourth-part">
+            <div class="box">
                 <div>
                     <div>Call to action! It's time!</div>
                     <div>Sign up for our product by clicking that button right over there!</div>
@@ -65,7 +64,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="footer">
             Copyright &copy; The Odin Project 2021
         </div>
     </body>

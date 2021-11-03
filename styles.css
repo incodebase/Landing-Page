@@ -1,0 +1,155 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    display: flex;    
+}
+
+.header {
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.main-image {
+    height: 200px;
+    width: 200px;
+}
+
+.header-secondary {
+    display: flex;    
+    justify-content: space-around;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 25px;  
+    border: none;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul, .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header-primary {
+    display: flex;
+    justify-content: space-around;    
+    padding: 20px; 
+}
+
+.secondary-text {
+    
+    width: 500px;
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.second-part {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; */
+    text-align: center;
+    flex: 1;
+    background-color: #F9FAF8;
+    padding: 30px;    
+}
+
+.text-and-image-group {
+    display: flex;
+    flex-direction: column;
+    width:200px;  
+} 
+
+.second-part-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.third-part {
+    flex: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    width: 800px;
+}
+
+.quote-writer {
+    font-style:normal;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.fourth-part {
+    flex: 1;
+    padding: 70px;
+    background-color: #F9FAF8;   
+}
+
+.box {
+    padding: 40px;
+    background-color: #3882F6;
+}
