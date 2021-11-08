@@ -15,7 +15,7 @@ body {
 .header {
     flex-direction: column;
     flex: 1;
-    
+    gap: 50px;
 }
 
 .footer {
@@ -47,9 +47,16 @@ body {
 .header-secondary {
     display: flex;    
     justify-content: space-around;
+    margin-bottom: 90px;
+    
 }
 
-button {
+.left-side-header-secondary {
+    width: 350px; 
+    
+}
+
+.first-button {
     font-family: Roboto, sans-serif;
     background-color: #3882F6;
     border-radius: 8px;
@@ -79,8 +86,8 @@ ul {
 }
 
 .secondary-text {
-    
-    width: 500px;
+    margin-bottom: 10px;
+    width: 600px;
 }
 
 .images {
@@ -145,11 +152,29 @@ ul {
 
 .fourth-part {
     flex: 1;
-    padding: 70px;
-    background-color: #F9FAF8;   
+    padding: 70px 300px; 
+    background-color: #F9FAF8;
 }
 
 .box {
     padding: 40px;
     background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+.fourth-part-button-div {
+    display: flex;
+    align-items: center;   
+}
+
+.fourth-part-signup-button {
+    
+}
+
+.call-to-action-text {
+    font-size: 20px;
+    font-weight: 900;
 }
