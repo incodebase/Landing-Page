@@ -1,6 +1,8 @@
 # Landing-Page
 
-This is a website made with CSS Flexbox. It's a project which is a part of The Odin Project curriculum. The templates for the website were given by them and the website was made from scratch based on the templates. The purpose of this project was to showcase how flexbox could be utilized to get a good overall web design. These are the templates -
+This is a website made with CSS Flexbox. It's a project which is a part of The Odin Project curriculum. The templates for the website were given by them and the website was made from scratch based on the templates. The purpose of this project was to showcase how flexbox could be utilized to get a good overall web design.
+This website isn't compatible for mobile devices.
+These are the templates used -
     
     1. https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
 
