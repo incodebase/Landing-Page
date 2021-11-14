@@ -130,7 +130,6 @@ ul {
     flex: 1;
     display: flex;
     background-color: #E5E7EB;
-    /*padding: 120px; */
     padding: 90px 520px; 
     justify-content: center;
     align-items: center;
@@ -142,7 +141,6 @@ ul {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    /*width: 800px; */
 }
 
 .quote-writer {
